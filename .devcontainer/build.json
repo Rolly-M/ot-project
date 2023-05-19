@@ -1,0 +1,12 @@
+{
+	"name": "rav1e-devcontainer",
+	"build": {
+		"dockerfile": "Dockerfile"
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/rust:1": {
+			"version": "latest",
+			"profile": "complete"
+		}
+	}
+}
